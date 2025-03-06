@@ -48,7 +48,7 @@ Le serveur sera accessible sur :
 
 ### Démarrage
 ```bash
-cd bankin-test
+cd bankin-react-server
 npm install
 npm start
 ```

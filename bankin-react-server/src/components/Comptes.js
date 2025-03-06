@@ -8,7 +8,7 @@ function Comptes() {
 
   useEffect(() => {
     // appel au serveur express local qui s'occupe de l'authentification, la récupération et filtre des données
-    axios.get('http://172.20.10.14:3001/main')
+    axios.get('http://localhost:3001/main')
       .then(response => {
         setComptes(response.data.accounts);
         setTotal_balance(response.data.total_balance);  

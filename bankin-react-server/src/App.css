@@ -1,0 +1,78 @@
+/* .App {
+  text-align: center;
+} */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  color: #00213C;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+  background-color: white;
+}
+
+.header {
+  background-color: #50BAFF;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.compte {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* background-color: #f9f9f9; */
+  border-radius: 5px;
+  gap: 40px;
+}
+
+.comptes-container {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.comptes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.footer-button {
+  background-color: #6562FD;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
